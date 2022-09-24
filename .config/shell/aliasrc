@@ -1,0 +1,8 @@
+#!/bin/zh
+
+# Use $XINITRC variable if file exists.
+[ -f "$XINITRC" ] && alias startx="startx $XINITRC"
+
+# Alias
+alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
+
