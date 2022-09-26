@@ -6,3 +6,18 @@
 :set smarttab
 :set softtabstop=4
 :set mouse=a
+
+
+call plug#begin()
+Plug 'https://github.com/vim-airline/vim-airline' " Status bar
+Plug 'https://github.com/preservim/nerdtree' " NerdTree
+call plug#end()
+
+
+nnoremap <C-f> :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
+
+let g:NERDTreeDirArrowExpandable="+"
+let g:NERDTreeDirArrowCollapsible="~"
