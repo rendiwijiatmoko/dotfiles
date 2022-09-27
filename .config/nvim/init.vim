@@ -23,5 +23,4 @@ let g:NERDTreeDirArrowCollapsible="~"
 
 map <C-L> gt
 map <C-H> gT
-//nmap <C-t> :tabnew<cr>
 map <C-t> :tabnew<cr>
