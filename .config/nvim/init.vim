@@ -15,9 +15,13 @@ call plug#end()
 
 
 nnoremap <C-f> :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
+
+map <C-L> gt
+map <C-H> gT
+//nmap <C-t> :tabnew<cr>
+map <C-t> :tabnew<cr>
