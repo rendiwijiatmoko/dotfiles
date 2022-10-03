@@ -55,8 +55,7 @@ lfcd () {
 
 # Load syntax highlighting; should be last.
 # For Linux
-# source /home/momo/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/momo/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # For Macbook
-source /Users/briinsurance/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#neofetch
-
+#source /Users/briinsurance/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+neofetch
